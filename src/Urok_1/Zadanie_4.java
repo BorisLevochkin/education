@@ -1,3 +1,5 @@
+package Urok_1;
+
 public class Zadanie_4 {
     public static void main(String[] args) {
 
