@@ -17,7 +17,9 @@ public class Zadanie5 {
             System.out.println("a < b");
         }
 
-        return;
+        //Также можно решить с использованием тернарного оператора
+
+        return;//излишен
     }
 
 }
