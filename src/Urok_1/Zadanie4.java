@@ -1,6 +1,6 @@
 package Urok_1;
 
-public class Zadanie_4 {
+public class Zadanie4 {
     public static void main(String[] args) {
 
         printColor();

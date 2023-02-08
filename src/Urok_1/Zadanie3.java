@@ -1,6 +1,6 @@
 package Urok_1;
 
-public class Zadanie_3 {
+public class Zadanie3 {
     public static void main(String[] args) {
 
         checkSumSign();

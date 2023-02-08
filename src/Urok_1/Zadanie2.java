@@ -1,6 +1,6 @@
 package Urok_1;
 
-public class Zadanie_2 {
+public class Zadanie2 {
     public static void main(String[] args) {
 
        printThreeWords();
