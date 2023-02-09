@@ -1,11 +1,17 @@
 package Urok_1;
 
+import static Urok_1.Zadanie2.printThreeWords;
+import static Urok_1.Zadanie3.checkSumSign;
+import static Urok_1.Zadanie4.printColor;
+
 public class Zadanie6 {
     public static void main(String[] args) {
-        Zadanie2.printThreeWords();
-        Zadanie3.checkSumSign();
-        Zadanie4.printColor();
-        Zadanie5.compareNumbers();
+        Zadanie5 zadanie = new Zadanie5();
+
+        printThreeWords();
+        checkSumSign();
+        printColor();
+        zadanie.compareNumbers();
     }
 }
 /*

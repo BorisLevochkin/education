@@ -1,12 +1,8 @@
 package Urok_1;
 
 public class Zadanie5 {
-    public static void main(String[] args) {
 
-        compareNumbers();
-
-    }
-    public static void compareNumbers(){
+    public void compareNumbers(){
         int a = 1;
         int b = 2;
 
@@ -16,6 +12,8 @@ public class Zadanie5 {
         else {
             System.out.println("a < b");
         }
+
+        System.out.println();
 
         //Также можно решить с использованием тернарного оператора
 
