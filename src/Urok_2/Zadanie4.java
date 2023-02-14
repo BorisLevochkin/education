@@ -10,10 +10,14 @@ public class Zadanie4 {
         textRaz(a, b);
 
     }
-    public static boolean textRaz(String a, int b) {
-        String repeated = StringUtils.repeat(a,b)
-        System.out.println(repeated);
+    public static void textRaz(String a, int b) {
+        System.out.println(b);
+        String c = a;
+        for (int i = 1; i < b; i++) {
+            c = c + " " + a;
 
+        }
+        System.out.println("c = " + c);
     }
 
 }

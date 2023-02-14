@@ -4,7 +4,7 @@ public class Zadanie1 {
 
     public static void main(String[] args) {
 
-        int a = 5;
+        int a = 50;
         int b = 7;
 
         System.out.println(checkSum(a, b));
