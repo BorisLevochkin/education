@@ -10,16 +10,13 @@ public class Zadanie1 {
         System.out.println(checkSum(a, b));
 
     }
-    public static boolean checkSum(int a, int b){
+    public static boolean checkSum(int a, int b) {
 
-        if ((a + b >= 10) && (a + b <= 20))  return true;
+        if ((a + b >= 10) && (a + b <= 20)) return true;
 
         else return false;
 
 
-
-
-
-
+    }
 
 }
