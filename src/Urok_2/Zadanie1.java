@@ -14,7 +14,7 @@ public class Zadanie1 {
 
         if ((a + b >= 10) && (a + b <= 20))  return true;
 
-        else return true;
+        else return false;
 
 
 
