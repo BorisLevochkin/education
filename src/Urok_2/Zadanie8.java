@@ -18,6 +18,6 @@ public class Zadanie8 {
                 System.out.print(arr[i][j] + " ");
             }
 
-//            System.out.println(Arrays.deepToString(arr));
         }
     }
+}
