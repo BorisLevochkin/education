@@ -7,10 +7,10 @@ public class Zadanie1 {
         int a = 5;
         int b = 7;
 
-        System.out.println(checkSum());
+        System.out.println(checkSum(a, b));
 
     }
-    public static void checkSum(int a, int b){
+    public static boolean checkSum(int a, int b){
 
         if ((a + b >= 10) && (a + b <= 20))  return true;
 
