@@ -8,7 +8,7 @@ public class Zadanie7 {
         System.out.println(Arrays.toString(a));
         for (int i = 0; i < a.length; i++) {
             if (a[i] < 6) {
-                a[i] = a[i] * 6;
+                a[i] = a[i] * 6; //неверно. Нужно было умножить на 2
             }
         }
         System.out.println(Arrays.toString(a));

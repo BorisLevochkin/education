@@ -6,7 +6,7 @@ public class Zadanie9 {
 
     public static void main(String[] args) {
 
-        String initialValue="initialValue";
+        String initialValue="initialValue"; // там должен возвращаться массив типа int, потому эта переменная должна быть числом
         int len = 5;
 
         textTab(initialValue, len);
