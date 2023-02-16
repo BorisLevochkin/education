@@ -11,9 +11,9 @@ public class Zadanie3 {
     }
     public static boolean checkBooleanA(int a) {
 
-        if (a >= 0) return true;
+        if (a >= 0) return false;
 
-        else return false;
+        else return true;
     }
 }
 //Неверное решение. По условие true должно возвращаться, если число отрицательное, и false - если положительное
