@@ -13,6 +13,7 @@ public class Zadanie1 {
             empCorp[3] = new Employee("Pupkina Nadegda", "EnvelopeLicker", "pupkina@mailbox.com", "892312316", 5000, 18);
             empCorp[4] = new Employee("Juk J", "GrinderPencil", "juk@mailbox.com", "892312317", 3000, 21);
             System.out.println(Arrays.toString(empCorp));
+
             Employee Vasy = empCorp[a];
 //            Employee.printInfo(Vasy);
 
