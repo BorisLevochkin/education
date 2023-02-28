@@ -34,7 +34,7 @@ public class Zadanie1 {
         String position;
         String email;
         String phone;
-        int salary;
+        int salary; //впринципе, уместнее было бы использовать float или double (для возможности использования копеек)
         int age;
         public static void printInfo(Employee employee){
             System.out.println(employee.name);
