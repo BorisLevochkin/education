@@ -9,7 +9,7 @@ public class Zadanie1 {
 
         System.out.println("Ver. 1\n" + Arrays.toString(arr));
         swapElements(arr, 2, 3);
-        System.out.println(Arrays.toString(arr));
+        System.out.println( "Ver. 2\n" + Arrays.toString(arr));
     }
 
     private static <T> void swapElements(T[] array, int index1, int index2) {
