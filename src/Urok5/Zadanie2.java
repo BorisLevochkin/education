@@ -1,16 +1,36 @@
 package Urok5;
-import java.util.List;
+import java.util.ArrayList;
 import java.util.Arrays;
 public class Zadanie2 {
 
-    public static void main(String[] args) {
-        String[] arr = {"asd", "ds", "ret", "123"};
-        System.out.println("Ver. 1\n" + Arrays.toString(arr));
-        List<String> list = convertToList(arr);
-        System.out.println( "Ver. 2\n" + list.getClass() + " : " + list);
+    public class Box<T extends Fruit> {
+        private ArrayList<T> items;
+
+        public Box(T... items) {
+            this.items = new ArrayList<T>(Arrays.asList(items));
+        }
+
+        public void add(T... items) {
+            this.items.addAll(Arrays.asList(items));
+        }
+
+        public void remove(T... items) {
+            for (T item: items) this.items.remove(item);
+        }
+
+        public ArrayList<T> getItems() {
+            return new ArrayList<T>(items);
+        }
+
 
     }
-    private static <E> List<E> convertToList(E[] array) {
-        return Arrays.asList(array);
+    public abstract class Fruit {
+        protected float weight;
+
+        public Fruit(float weight) {
+            this.weight = weight;
+        }
+
     }
+
 }
