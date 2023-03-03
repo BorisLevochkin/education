@@ -3,14 +3,16 @@ package TEST;
 
 import java.util.Arrays;
 
+import static TEST.Employee.printInfo;
+
 public class Employee {
 
-    static String fio;
+    String fio;
     String job;
     String email;
     String telephone;
     int salary;
-    static int age;
+    int age;
 
     public Employee(String fio, String job, String email, String telephone, int salary, int age) {
         this.fio = fio;
@@ -23,7 +25,7 @@ public class Employee {
 
     public static void printInfo(Employee employee) {
 
-        if (age>=41) {
+        if (employee.age>=41) { //мы же берем возраст нашего конкретного работника, а не какой-то непонятно кого
             System.out.println(employee.fio);
             System.out.println(employee.job);
             System.out.println(employee.email);
@@ -32,7 +34,7 @@ public class Employee {
             System.out.println(employee.age);
 //            System.out.println(Arrays.toString(employee));
         }
-        else System.out.println(fio + "  " + "возраст<41");
+        else System.out.println(employee.fio + "  " + "возраст<41"); // аналогично, как и замечание выше
 
     }
 }
@@ -46,7 +48,7 @@ class MainClass {
         employee[3] = new Employee("Pupkina Nadegda", "EnvelopeLicker", "pupkina@mailbox.com", "892312316", 5000, 18);
         employee[4] = new Employee("Juk J", "GrinderPencil", "juk@mailbox.com", "892312317", 3000, 21);
         Employee Vasy = employee[0];
-        Employee.printInfo(Vasy);
+        Employee.printInfo(Vasy); //можно название класса не писать, а использовать статический импорт
 
     }
 
