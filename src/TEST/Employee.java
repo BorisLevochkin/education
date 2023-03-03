@@ -3,7 +3,6 @@ package TEST;
 
 import java.util.Arrays;
 
-import static TEST.Employee.printInfo;
 
 public class Employee {
 
@@ -37,6 +36,21 @@ public class Employee {
         else System.out.println(employee.fio + "  " + "возраст<41"); // аналогично, как и замечание выше
 
     }
+
+//    public void printInfo() {
+//
+//        if (age>=41) { //мы же берем возраст нашего конкретного работника, а не какой-то непонятно кого
+//            System.out.println(fio);
+//            System.out.println(job);
+//            System.out.println(email);
+//            System.out.println(telephone);
+//            System.out.println(salary);
+//            System.out.println(age);
+////            System.out.println(Arrays.toString(employee));
+//        }
+//        else System.out.println(fio + "  " + "возраст<41"); // аналогично, как и замечание выше
+//
+//    }
 }
 class MainClass {
     public static void main(String[] args) {
@@ -47,8 +61,12 @@ class MainClass {
         employee[2] = new Employee("Sidorov Sidr", "Water pot", "sidorov@mailbox.com", "892312315", 10000, 43);
         employee[3] = new Employee("Pupkina Nadegda", "EnvelopeLicker", "pupkina@mailbox.com", "892312316", 5000, 18);
         employee[4] = new Employee("Juk J", "GrinderPencil", "juk@mailbox.com", "892312317", 3000, 21);
-        Employee Vasy = employee[0];
+        Employee Vasy = employee[0]; //переменные пишутся строчными буквами
         Employee.printInfo(Vasy); //можно название класса не писать, а использовать статический импорт
+//        Employee vasy = employee[0];
+//        vasy.printInfo();
+//        //или
+//        employee[0].printInfo();
 
     }
 
