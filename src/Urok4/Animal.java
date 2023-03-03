@@ -1,5 +1,5 @@
 package Urok4;
-
+// на самом деле как-то слабовато
 public class Animal {
         private int distGo;
         private int distSwim;
@@ -11,7 +11,7 @@ public class Animal {
             this.distJump = distJump;
         }
 
-        public void goDist(int n) {
+        public void goDist(int n) { //старайся давать переменным нормальные названия
             distGo -= n;
         }
         public void swimDist(int m) {
@@ -20,6 +20,8 @@ public class Animal {
         public void distJump(int k) {
             distJump -= k;
     }
+
+    // Не вижу методов, отвечающих за способность бегать и плавать
 
         public void info(String a, int go, int swim, int jump) {
 //            if (dist >= 0) {
@@ -36,7 +38,7 @@ public class Animal {
         }
     }
 
-    class Dog1 {
+    class Dog1 { //В задании требовалось создать не внутренние классы, а унаследовать их от класса Animal
         private String name;
         private int go;
         private int swim;
@@ -89,7 +91,7 @@ public class Animal {
         }
     }
 
-    class MainClass1 {
+    class MainClass1 { //очень странная реализация: основной класс является внутренним классом
         public static void main(String[] args) {
             Cat1 cat1 = new Cat1("Barsik", 50, 25, 10);
             Dog1 dog1 = new Dog1("Vorsik", 80, 15, 10);
