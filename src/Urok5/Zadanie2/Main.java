@@ -19,4 +19,5 @@ public class Main {
         Box<Orange> box3 = new Box<Orange>();
         box2.transfer(box3);
     }
+
 }
