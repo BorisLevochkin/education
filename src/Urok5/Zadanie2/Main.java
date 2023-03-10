@@ -2,9 +2,6 @@ package Urok5.Zadanie2;
 
 public class Main {
 
-    /**
-     * С подробной формулировкой заданий можно ознакомится в файле README.md
-     */
     public static void main(String[] args) {
 
         Apple apple1 = new Apple();
