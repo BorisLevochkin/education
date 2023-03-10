@@ -1,6 +1,10 @@
-package Urok5.Zadanie2;
+package TEST.ZAD2;
 
-public class Main {
+import Urok5.Zadanie2.Apple;
+import Urok5.Zadanie2.Box;
+import Urok5.Zadanie2.Orange;
+
+public class Main1 {
 
     public static void main(String[] args) {
 
