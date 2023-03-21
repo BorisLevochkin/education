@@ -21,6 +21,8 @@ public class Box<T extends Fruit> {
         return new ArrayList<T>(items);
     }
 
+    // три метода выше нигде не используются
+
     public void clear() {
         items.clear();
     }

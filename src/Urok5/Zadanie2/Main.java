@@ -15,12 +15,12 @@ public class Main {
         Orange orange1 = new Orange();
         Orange orange2 = new Orange();
 
-        Box<Apple> box1 = new Box<Apple>(apple1, apple2, apple3);
-        Box<Orange> box2 = new Box<Orange>(orange1, orange2);
+        Box<Apple> box1 = new Box<>(apple1, apple2, apple3); // во вторых угловых скобках можно не указывать тип данных
+        Box<Orange> box2 = new Box<>(orange1, orange2);
 
         System.out.println(box1.compare(box2));
 
-        Box<Orange> box3 = new Box<Orange>();
+        Box<Orange> box3 = new Box<>();
         box2.transfer(box3);
     }
 

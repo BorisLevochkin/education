@@ -5,12 +5,13 @@ class Error {
     public static void main(String[] args) {
 
         String[][] arr = new String[][]{{"1", "2", "3", "4"}, {"2", "2", "2", "3"}, {"1", "2", "2", "2"}, {"2", "2", "2", "2"}};
+        // можно оставить просто то, что в фигурных скобках
         try {
             try {
                 int result = method(arr);
                 System.out.println(result);
             } catch (MyArraySizeException e) {
-                System.out.println("Размер массива превышен!");
+                System.out.println("Размер массива превышен!"); //не обязательно он будет превышен, он может быть и меньше
             }
         }
         catch (MyArrayDataException e) {

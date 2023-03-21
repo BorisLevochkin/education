@@ -23,7 +23,7 @@ public class Save {
             sb.append('\n');
 
             writer.write(sb.toString());
-            writer.close();
+            writer.close(); //Зачем? Конструкция try-with-resources сама закроет
             System.out.println("Файл записан");
 
         } catch (FileNotFoundException e) {
@@ -32,5 +32,5 @@ public class Save {
     }
 
 
-
+// норм, только не соответствует заданию
 }
