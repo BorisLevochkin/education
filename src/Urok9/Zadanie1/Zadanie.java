@@ -7,7 +7,8 @@ import java.util.stream.Stream;
 
 public class Zadanie {
     public static void main(String[] args) {
-        ArrayList<Integer> AL = new ArrayList<Integer>();
+        ArrayList<Integer> AL = new ArrayList<Integer>(); // можно 9и даже не нужно) не писать integer во вторых угловых скобках
+        // почему название переменный заглавными буквами?
         int number;
         Random rnd = new Random();
 
@@ -21,5 +22,6 @@ public class Zadanie {
         fn = (n) -> (n % 2) == 0;
         Stream<Integer> resStream = st.filter(fn);
         System.out.println("n = " + resStream.count());
+//        System.out.println(AL.stream().filter(x -> (x % 2) == 0).count());
     }
 }
